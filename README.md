@@ -1,8 +1,8 @@
 # semiMarkdown
 
-# Markdown 基本语法
+## Markdown 基本语法
 	常用的标记符号不超过十个,不到半小时就能完全掌握。
-# Markdown 标题语法
+## Markdown 标题语法
 创建标题需要添加 "# "号, #号数量代表标题级别
 # 一级标题     
 ## 二级标题   
@@ -12,7 +12,7 @@
 
 
 
-# Markdown 段落语法
+## Markdown 段落语法
 要创建段落,只需要空白一行或多行
 
 我是段落
@@ -21,7 +21,7 @@
 
 建议: 段落头部不要用空格或Tab缩进
 
-# Markdown 换行语法
+## Markdown 换行语法
 只需要在行尾添加2个或多个空格, 然后回车即可
 
 建议: 使用`<br>`也是可以的
@@ -32,7 +32,7 @@
 我要换行
 
 
-# Markdown 强调语法
+## Markdown 强调语法
 强调就是加粗文字  
 使用 **加粗的文字**  
 使用 __加粗的文字__
@@ -52,7 +52,7 @@
 
 
 
-# Markdown 引用语法
+## Markdown 引用语法
 引用块只需在前面加上>即可
 
 > 我是引用块
@@ -65,7 +65,7 @@
 
 
 
-# Markdown 列表语法
+## Markdown 列表语法
 要创建数字列表,只需加上数字和英文小数点即可  
 
 1. 我是列表
@@ -80,7 +80,7 @@
 附: 在列表中添加另一种元素，请将该元素缩进四个空格或一个制表符
 
 
-# Markdown 代码语法
+## Markdown 代码语法
 只需要用 `代码` 包裹即可
 
 
@@ -95,7 +95,7 @@
     </html>
 
 
-# Markdown 分隔线语法
+## Markdown 分隔线语法
 在单独一行上 使用三个或多个星号 (***)、破折号 (---) 或下划线 (___) 
 
 
@@ -112,7 +112,7 @@ ___
 
 
 
-# Markdown 链接语法
+## Markdown 链接语法
 语法代码：
 `[超链接显示名](超链接地址 "超链接title")`
 
@@ -125,16 +125,35 @@ ___
   
 
 
-# Markdown 图片语法
+## Markdown 图片语法
 图片和链接一样, 只需要多加一个!
 
-语法 `![图片alt](图片链接 "图片title")(图片的点击http://超链接)`
+语法 `![图片alt](图片链接 "图片title")`
 
-![我是图片替代文本,加载失败时显示](https://markdown.com.cn/assets/img/philly-magic-garden.9c0b4415.jpg "图片提示")(http://g.com)
+带超链接的语法 `[同上](图片的点击http://超链接)`
 
-# Markdown 转义字符语法
+[![我是图片替代文本,加载失败时显示](https://markdown.com.cn/assets/img/philly-magic-garden.9c0b4415.jpg "图片提示")](http://g.com)
 
-# Markdown 内嵌 HTML 标签
+## Markdown 转义字符语法
+要显示markdown里面使用的符号,需要\反斜杠
 
+\****
+
+
+## Markdown 内嵌 HTML 标签
+
+可以行内标签可以直接使用
+
+块元素需要上下空一行
+
+This is a regular paragraph.
+
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
+
+This is another regular paragraph.
 
 
